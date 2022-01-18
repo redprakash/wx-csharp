@@ -5,7 +5,7 @@
  
 ## what is MSIL 
 ## what is compiled vs interpreted vs Hybrid language
-    - https://www.youtube.com/watch?v=I1f45REi3k4
+  - https://www.youtube.com/watch?v=I1f45REi3k4
 ## what is architecture of .net core (i.e. how program/code executes on .net core platform)
 ## C#/ASP .net core web api basic understanding
 ## Dependency injection in .net core
