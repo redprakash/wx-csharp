@@ -1,4 +1,6 @@
 # Topics
+## .NET Framework vs .NET Core vs .NET vs .NET Standard vs C#
+  - https://www.youtube.com/watch?v=4olO9UjRiww
 ## Explain how C# .net core framework works. 
 ## what is MSIL 
 ## what is compiled language
