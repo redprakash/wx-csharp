@@ -16,3 +16,12 @@
 ## Get started with C# and ASP.NET Core in Visual Studio
   - https://docs.microsoft.com/en-us/visualstudio/get-started/csharp/tutorial-aspnet-core?view=vs-2022
 
+## C# OOP
+  ### Getter and Setter
+  - https://codeasy.net/lesson/properties
+
+  ### Getter and Setter with properties
+  - https://www.youtube.com/watch?v=NfGUcee3ga4
+  
+
+
