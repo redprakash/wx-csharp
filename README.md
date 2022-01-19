@@ -1,1 +1,1 @@
-# Suggested pathwat for WX to learn dotnet c#
+# Suggested pathway for WX to learn dotnet c#
