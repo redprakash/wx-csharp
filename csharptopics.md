@@ -26,6 +26,8 @@
       - https://www.youtube.com/watch?v=hxIb99-Z8_I
 
   - `A static class is declared using the "static" keyword. If the class is declared as static then the compiler never creates an instance of the class. All the member fields, properties and functions must be declared as static and they are accessed by the class name directly not by a class instance object.`
+  - `Interface`
+      - https://www.programiz.com/csharp-programming/interface
 
 ## C#/ASP .net core web api basic understanding
 
