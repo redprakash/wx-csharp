@@ -18,12 +18,14 @@
 ## What is compiled vs interpreted vs Hybrid language
   - https://www.youtube.com/watch?v=I1f45REi3k4
 
-## Object oriented programming concepts (with C#)
+## Object Oriented Programming concepts (with C#)
   - https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop
   - `OOP Crash Course `
       - https://www.youtube.com/watch?v=SiBw7os-_zI
   - `OOP Concepts in C#`
       - https://www.youtube.com/watch?v=hxIb99-Z8_I
+
+  - `A static class is declared using the "static" keyword. If the class is declared as static then the compiler never creates an instance of the class. All the member fields, properties and functions must be declared as static and they are accessed by the class name directly not by a class instance object.`
 
 ## C#/ASP .net core web api basic understanding
 
