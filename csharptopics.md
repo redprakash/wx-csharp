@@ -31,6 +31,7 @@
       - https://www.programiz.com/csharp-programming/interface
 
 ## C#/ASP .net core web api basic understanding
+  - https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio
 
 ## Dependency injection in .net core
 
