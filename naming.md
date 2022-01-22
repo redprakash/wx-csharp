@@ -1,5 +1,5 @@
 # Naming Guidelines
-	- https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines
+   - https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines
 
 <company/org>.<domain/dept>.<type>.<sub-type>
 
