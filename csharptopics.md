@@ -30,16 +30,13 @@
   - `Interface`
       - https://www.programiz.com/csharp-programming/interface
 
-## C#/ASP .net core web api basic understanding
+## Get started with ASP.NET Core MVC
+ - https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?WT.mc_id=dotnet-35129-website&view=aspnetcore-6.0&tabs=visual-studio
+
+## C#/ASP .net core Web API basic understanding
   - https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio
 
 ## Dependency injection in .net core
-
-## Integration tests vs Unit tests vs End to end tests in asp.net core API
-
-## Above two (MVC and Conosle) tutorial end to end thoroughly understood
-  ### Get started with ASP.NET Core MVC
-        - https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?WT.mc_id=dotnet-35129-website&view=aspnetcore-6.0&tabs=visual-studio
 
 ## Basic data structure problems
 
@@ -47,4 +44,10 @@
 
 ## MongoDb demo application using C#
 
+## Integration tests vs Unit tests vs End to end tests in asp.net core API
+
 ## Git/source control
+
+
+# NOTES
+` (MVC and Conosle) tutorial end to end thoroughly understood `
