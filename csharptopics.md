@@ -37,8 +37,10 @@
   - https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio
 
 ## Dependency injection in .net core
+  `A dependency is an object that another object depends on`
   - https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection
   - https://www.youtube.com/watch?v=daYmMZ28-Y0
+  - https://www.c-sharpcorner.com/blogs/what-is-dependency-injection-and-what-are-its-types2
 
 ## Basic data structure problems
 
