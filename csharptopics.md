@@ -31,6 +31,15 @@
       - https://www.programiz.com/csharp-programming/interface
 
 ## Get started with ASP.NET Core MVC
+  ### Models: 
+       - Classes that represent the data of the app. 
+          The model classes use validation logic to enforce business rules for that data. Typically, model objects retrieve and store model state in a database.
+  ### Views: 
+       - Views are the components that display the app's user interface (UI). Generally, this UI displays the model data.
+  ### Controllers: Classes that:
+       - Handle browser requests.
+       - Retrieve model data.
+       - Call view templates that return a response.
  - https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?WT.mc_id=dotnet-35129-website&view=aspnetcore-6.0&tabs=visual-studio
 
 ## C#/ASP .net core Web API basic understanding
