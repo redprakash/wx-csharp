@@ -37,6 +37,7 @@
   - https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio
 
 ## Dependency injection in .net core
+  - https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection
   - https://www.youtube.com/watch?v=daYmMZ28-Y0
 
 ## Basic data structure problems
