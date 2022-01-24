@@ -64,6 +64,8 @@
 
 ## Git/source control
 
+## Language Integrated Query (LINQ) (C#)
+  - https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/
 
 # NOTES
 ` (MVC and Conosle) tutorial end to end thoroughly understood `
