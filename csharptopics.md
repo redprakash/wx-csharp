@@ -66,6 +66,10 @@
 
 ## Language Integrated Query (LINQ) (C#)
   - https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/
+  #### All LINQ query operations consist of three distinct actions:
+      - Obtain the data source.
+      - Create the query.
+      - Execute the query.
 
 # NOTES
 ` (MVC and Conosle) tutorial end to end thoroughly understood `
