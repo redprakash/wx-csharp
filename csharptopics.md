@@ -67,6 +67,8 @@
   - https://www.perforce.com/blog/vcs/what-source-control
 
 ## Language Integrated Query (LINQ) (C#)
+  ### Try LINQ
+      - https://github.com/dotnet/try-samples
   - https://www.javatpoint.com/linq-min-function
   - https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/
   #### All LINQ query operations consist of three distinct actions:
