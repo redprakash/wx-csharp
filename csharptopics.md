@@ -54,11 +54,12 @@
   - https://www.youtube.com/watch?v=daYmMZ28-Y0
   - https://www.c-sharpcorner.com/blogs/what-is-dependency-injection-and-what-are-its-types2
 
+## MongoDb demo application using C#
+  - https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mongo-app?view=aspnetcore-6.0&tabs=visual-studio
+
 ## Basic data structure problems
 
 ## SQL server, T-SQL
-
-## MongoDb demo application using C#
 
 ## Integration tests vs Unit tests vs End to end tests in asp.net core API
 
