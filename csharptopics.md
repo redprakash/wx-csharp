@@ -76,5 +76,7 @@
       - Create the query.
       - Execute the query.
 
+## LAMBDA
+  - https://www.youtube.com/watch?v=DSxjciDUBdw
 # NOTES
 ` (MVC and Conosle) tutorial end to end thoroughly understood `
