@@ -63,6 +63,10 @@
 
 ## Integration tests vs Unit tests vs End to end tests in asp.net core API
 
+# SDLC
+
+# WaterFall Model and Agile
+
 ## Git/source control
   - https://www.perforce.com/blog/vcs/what-source-control
 
