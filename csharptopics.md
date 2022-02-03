@@ -62,16 +62,18 @@
 ## SQL server, T-SQL
 
 ## Integration tests vs Unit tests vs End to end tests in asp.net core API
-  ### Unit Testing (xUnit)
-    - https://www.lambdatest.com/blog/nunit-vs-xunit-vs-mstest/
+ ### Unit Testing (xUnit)
+   - https://www.lambdatest.com/blog/nunit-vs-xunit-vs-mstest/
 
 ## SDLC
 
 ## WaterFall Model and Agile
+
 ## Domain Driven Design
   - https://vaadin.com/learn/tutorials/ddd/tactical_domain_driven_design
   - https://github.com/dotnet-architecture/eShopOnContainers/tree/dev/src/Services/Ordering
   - https://leanpub.com/theanatomyofdomain-drivendesign
+
 ## Git/source control
   - https://www.perforce.com/blog/vcs/what-source-control
 
@@ -84,7 +86,9 @@
       - Obtain the data source.
       - Create the query.
       - Execute the query.
-
+## Azure DevOps
+  - https://www.pluralsight.com/courses/continuous-delivery-azure-devops-big-picture
+  - https://azure.microsoft.com/en-au/overview/devops-tutorial/#understanding
 ## LAMBDA
   - https://www.youtube.com/watch?v=DSxjciDUBdw
 # NOTES
