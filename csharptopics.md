@@ -66,8 +66,11 @@
    - https://www.lambdatest.com/blog/nunit-vs-xunit-vs-mstest/
 
 ## SDLC
+  - https://stackify.com/what-is-sdlc/
 
 ## WaterFall Model and Agile
+  - https://www.atlassian.com/agile
+  - https://www.projectmanager.com/waterfall-methodology
 
 ## Domain Driven Design
   - https://vaadin.com/learn/tutorials/ddd/tactical_domain_driven_design
