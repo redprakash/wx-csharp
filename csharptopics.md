@@ -58,6 +58,8 @@
   - https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mongo-app?view=aspnetcore-6.0&tabs=visual-studio
 
 ## Basic data structure problems
+`Data Structures are a specialized means of organizing and storing data in computers in such a way that we can perform operations on the stored data more efficiently.`
+  - https://towardsdatascience.com/8-common-data-structures-every-programmer-must-know-171acf6a1a42
 
 ## SQL server, T-SQL
 `T-SQL stands for Transact Structure Query Language which is a Microsoft product and is an extension of SQL Language.`
