@@ -73,6 +73,8 @@
 ## Integration tests vs Unit tests vs End to end tests in asp.net core API
  ### Unit Testing (xUnit)
    - https://www.lambdatest.com/blog/nunit-vs-xunit-vs-mstest/
+   - https://www.programmingwithwolfgang.com/xunit-getting-started/
+   - 
 
 ## SDLC
   - https://stackify.com/what-is-sdlc/
