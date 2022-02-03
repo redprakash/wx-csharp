@@ -60,6 +60,7 @@
 ## Basic data structure problems
 
 ## SQL server, T-SQL
+  - https://searchdatamanagement.techtarget.com/definition/T-SQL
   - https://www.sqlservertutorial.net/getting-started/what-is-sql-server/
  ### Tutorial: Writing Transact-SQL Statements
   - https://docs.microsoft.com/en-us/sql/t-sql/tutorial-writing-transact-sql-statements?view=sql-server-ver15
