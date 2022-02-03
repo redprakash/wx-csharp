@@ -64,6 +64,7 @@
 ## SQL server, T-SQL
 `T-SQL stands for Transact Structure Query Language which is a Microsoft product and is an extension of SQL Language.`
   - https://www.tutorialspoint.com/t_sql/index.htm
+  - https://www.youtube.com/watch?v=8hqpa5VF09Y
   - https://searchdatamanagement.techtarget.com/definition/T-SQL
   - https://www.sqlservertutorial.net/getting-started/what-is-sql-server/
  ### Tutorial: Writing Transact-SQL Statements
