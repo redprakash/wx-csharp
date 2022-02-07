@@ -103,6 +103,10 @@
 ## Azure DevOps
   - https://www.pluralsight.com/courses/continuous-delivery-azure-devops-big-picture
   - https://azure.microsoft.com/en-au/overview/devops-tutorial/#understanding
+
+## LOGGING in ASP.NET Core
+  - https://www.youtube.com/watch?v=dxBlBltEDRs
+
 ## LAMBDA
   - https://www.youtube.com/watch?v=DSxjciDUBdw
 # NOTES
