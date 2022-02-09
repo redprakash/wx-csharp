@@ -16,6 +16,9 @@
 ## Get started with C# and ASP.NET Core in Visual Studio
   - https://docs.microsoft.com/en-us/visualstudio/get-started/csharp/tutorial-aspnet-core?view=vs-2022
 
+## ASP.NET Core MVC with EF Core - tutorial series
+  - https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/?view=aspnetcore-6.0
+
 ## C# OOP
   ### Getter and Setter
   - https://codeasy.net/lesson/properties
