@@ -107,6 +107,9 @@
 
 ## LOGGING in ASP.NET Core
   - https://www.youtube.com/watch?v=dxBlBltEDRs
+## 10 Exception handling best practices in C#
+  ` An exception is a runtime error in a program that violates a system or application constraint, or a condition that is not expected to occur during the normal execution of       the program.`
+  - https://kumarashwinhubert.com/10-exception-handling-best-practices-in-csharp
 
 ## LAMBDA
   - https://www.youtube.com/watch?v=DSxjciDUBdw
