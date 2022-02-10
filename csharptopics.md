@@ -116,5 +116,8 @@
 
 ## Collections in C#
   - https://www.c-sharpcorner.com/UploadFile/736bf5/collection-in-C-Sharp/#:~:text=C%23%20collection%20types%20are%20designed,inserting%20items%20to%20a%20collection
+  - https://www.tutorialspoint.com/csharp/csharp_collections.htm
+
+
 # NOTES
 ` (MVC and Conosle) tutorial end to end thoroughly understood `
