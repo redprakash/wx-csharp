@@ -1,5 +1,8 @@
 # Tutorial Topics and Links
 
+## C# Programming Language
+  - https://www.geeksforgeeks.org/csharp-programming-language/?ref=lbp
+
 ## Visual Studio tutorials | C#
   - https://docs.microsoft.com/en-us/visualstudio/get-started/csharp/?view=vs-2022
 
