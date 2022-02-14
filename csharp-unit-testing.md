@@ -8,3 +8,6 @@
       - Arrange: Setup the test 
       - Act: Call the method being tested
       - Assert: Determine the result
+
+## Fluent Assertions
+  - https://fluentassertions.com/introduction
