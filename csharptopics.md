@@ -75,7 +75,8 @@
  ### Unit Testing (xUnit)
    - https://www.lambdatest.com/blog/nunit-vs-xunit-vs-mstest/
    - https://www.programmingwithwolfgang.com/xunit-getting-started/
-   - 
+ ### Fluent Assertions
+    - https://fluentassertions.com/introduction
 
 ## SDLC
   - https://stackify.com/what-is-sdlc/
