@@ -11,3 +11,6 @@
 
 ## Fluent Assertions
   - https://fluentassertions.com/introduction
+
+## Unit Test Tutorial 
+  - https://www.youtube.com/watch?v=dsD0CMgPjUk&t=15s
