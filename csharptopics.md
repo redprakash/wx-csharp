@@ -129,5 +129,8 @@
 ## Dapper
   - https://www.codeproject.com/Articles/1255078/Absolute-Beginners-Tutorial-on-Understanding-and-U
 
+  ### Dapper CRUD in ASP.NET Core Web API
+   - https://www.youtube.com/watch?v=Suue7oo-Ni8
+
 # NOTES
 ` (MVC and Conosle) tutorial end to end thoroughly understood `
