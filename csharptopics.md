@@ -129,6 +129,9 @@
   ` Repository Design Pattern acts as a middleman or middle layer between the rest of the application and the data access logic. That means a repository pattern isolates all the     data access code from the rest of the application. The advantage of doing so is that, if you need to do any changes then you need to do it in one place. Another benefit is       that testing your controllers becomes easy because the testing framework need not run against the actual database access code.`
   - https://dotnettutorials.net/lesson/repository-design-pattern-csharp/
 
+  ### Generic Repository Pattern in C#
+      - https://dotnettutorials.net/lesson/generic-repository-pattern-csharp-mvc/
+
 ## Dapper
   - https://www.codeproject.com/Articles/1255078/Absolute-Beginners-Tutorial-on-Understanding-and-U
 
