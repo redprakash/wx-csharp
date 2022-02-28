@@ -136,10 +136,12 @@
      For example, a repository for an Employee entity will have the basic CRUD operations 
      and any other possible operations related to the Employee entity.
     
-  - https://dotnettutorials.net/lesson/repository-design-pattern-csharp/
+    - https://dotnettutorials.net/lesson/repository-design-pattern-csharp/
 
-  ### Generic Repository Pattern in C#
+  ### Generic & Non Geneeric Repository Pattern in C#
       - https://dotnettutorials.net/lesson/generic-repository-pattern-csharp-mvc/
+  ### Unit of Work in C# Repository Pattern
+      - https://dotnettutorials.net/lesson/unit-of-work-csharp-mvc/
 
 ## Dapper
   - https://www.codeproject.com/Articles/1255078/Absolute-Beginners-Tutorial-on-Understanding-and-U
