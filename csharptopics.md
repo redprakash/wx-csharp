@@ -126,9 +126,15 @@
   - https://www.altexsoft.com/blog/object-relational-mapping/
 
 ## Repository Pattern in C#
-    Repository Design Pattern acts as a middleman or middle layer between the rest of the application and the data access logic. That means a repository pattern isolates all the     data access code from the rest of the application. The advantage of doing so is that, if you need to do any changes then you need to do it in one place. Another benefit is       that testing your controllers becomes easy because the testing framework need not run against the actual database access code.
+     Repository Design Pattern acts as a middleman or middle layer between the rest of the application and the data access logic. 
+     That means a repository pattern isolates all the data access code from the rest of the application. 
+     The advantage of doing so is that, if you need to do any changes then you need to do it in one place. 
+     Another benefit is that testing your controllers becomes easy because the testing framework need not run 
+     against the actual database access code.
     
-    A repository is nothing but a class defined for an entity, with all the possible database operations. For example, a repository for an Employee entity will have the basic       CRUD operations and any other possible operations related to the Employee entity.
+     A repository is nothing but a class defined for an entity, with all the possible database operations. 
+     For example, a repository for an Employee entity will have the basic CRUD operations 
+     and any other possible operations related to the Employee entity.
     
   - https://dotnettutorials.net/lesson/repository-design-pattern-csharp/
 
