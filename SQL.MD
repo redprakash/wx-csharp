@@ -4,4 +4,4 @@
 # JOINS
   - https://www.youtube.com/watch?v=0OQJDd3QqQM
 
-<P>Left Join = inner join + any addition records in the left table</p>
+  `Left Join = inner join + any addition records in the left table`
