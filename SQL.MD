@@ -4,6 +4,8 @@
 # JOINS
   - https://www.youtube.com/watch?v=0OQJDd3QqQM
 
-  ### Left Join = inner join + any additional records in the left table
-  ### Right Join = inner join + any additional records in the right table
+ ### Inner join is anyting that matches between two tables based on the `ON` condition
+
+ ### Left Join = inner join + any additional records in the left table
+ ### Right Join = inner join + any additional records in the right table
   
