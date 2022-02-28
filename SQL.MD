@@ -4,4 +4,6 @@
 # JOINS
   - https://www.youtube.com/watch?v=0OQJDd3QqQM
 
-  `Left Join = inner join + any addition records in the left table`
+  ### Left Join = inner join + any additional records in the left table
+  ### Right Join = inner join + any additional records in the right table
+  
