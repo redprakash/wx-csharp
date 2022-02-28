@@ -8,4 +8,5 @@
 
  ### Left Join = inner join + any additional records in the left table
  ### Right Join = inner join + any additional records in the right table
+ ### Full Join = inner join + all remaining records from left table + all remaining records from right table
   
