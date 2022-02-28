@@ -136,12 +136,20 @@
      For example, a repository for an Employee entity will have the basic CRUD operations 
      and any other possible operations related to the Employee entity.
     
-    - https://dotnettutorials.net/lesson/repository-design-pattern-csharp/
+   - https://dotnettutorials.net/lesson/repository-design-pattern-csharp/
 
   ### Generic & Non Geneeric Repository Pattern in C#
-      - https://dotnettutorials.net/lesson/generic-repository-pattern-csharp-mvc/
+   - https://dotnettutorials.net/lesson/generic-repository-pattern-csharp-mvc/
+ 
   ### Unit of Work in C# Repository Pattern
-      - https://dotnettutorials.net/lesson/unit-of-work-csharp-mvc/
+     The Unit of Work pattern is used to group one or more operations (usually database CRUD operations) into a single transaction 
+     or “unit of work” so that all operations either pass or fail as one unit. In simple words we can say that for a specific user action, 
+     say booking on a website, all the transactions like insert/update/delete and so on are done in one single transaction, rather than doing 
+     multiple database transactions. This means, one unit of work here involves insert/update/delete operations, all in one single transaction 
+     so that all operations either pass or fail as one unit.
+      
+      
+   - https://dotnettutorials.net/lesson/unit-of-work-csharp-mvc/
 
 ## Dapper
   - https://www.codeproject.com/Articles/1255078/Absolute-Beginners-Tutorial-on-Understanding-and-U
