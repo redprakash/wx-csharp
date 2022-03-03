@@ -7,13 +7,24 @@
 - https://www.youtube.com/watch?v=9qvCeRt9_hM&list=PLKjV8hx8vwdhLLhfIHG-CGIC1vmRwBiCF&index=27
 
 # Single Responsibility Principle
-  `Each software module should have one and only one reason to change`
-  A module in C# could be classes and methods
+    `Each software module should have one and only one reason to change`
+      A module in C# could be classes and methods
 
-### Class Coupling and Cohesion
-  `If our module performs one task and nothing else or has a clear purpose, our module has high cohesion. On the other hand, 
+   ### Class Coupling and Cohesion
+    `If our module performs one task and nothing else or has a clear purpose, our module has high cohesion. On the other hand, 
     if our module tries to encapsulate more than one purpose or has an unclear purpose, our module has low cohesion.`
     
    #### Relationships between classes is coupling
+   
+# Open/Closed Principle
+  `Software entities(classes,modules,functions, etc) should be open for extension, but closed for modification`
+  
+# Liskov Substitution Principle
+
+# Interface Segreagation Principle
+
+# Dependency Inversion Principle
+ 
+ 
    
    
