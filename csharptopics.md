@@ -161,5 +161,7 @@
    - https://www.youtube.com/watch?v=3moKgzS7AWo
    - https://www.youtube.com/watch?v=Suue7oo-Ni8
 
+  ### Dapper Contrib
+
 # NOTES
 ` (MVC and Conosle) tutorial end to end thoroughly understood `
