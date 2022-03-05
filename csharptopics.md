@@ -162,6 +162,8 @@
    - https://www.youtube.com/watch?v=Suue7oo-Ni8
 
   ### Dapper Contrib
+    - Great extensuons for simple straight forward sql statenents.
+    - https://github.com/DapperLib/Dapper.Contrib
 
 # NOTES
 ` (MVC and Conosle) tutorial end to end thoroughly understood `
