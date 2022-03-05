@@ -153,6 +153,7 @@
 
 ## Dapper
   - https://www.codeproject.com/Articles/1255078/Absolute-Beginners-Tutorial-on-Understanding-and-U
+  - https://app.pluralsight.com/course-player?clipId=21fc60fc-1e08-432b-8bac-dd4681bb14bc
 
   ### Dapper CRUD in ASP.NET Core Web API
    - https://www.youtube.com/watch?v=3moKgzS7AWo
