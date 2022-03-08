@@ -45,6 +45,7 @@ on [table_name]
   the CTE repeatedly executes, returns subsets of data, until it returns the complete result set.
   - https://www.sqlservertutorial.net/sql-server-basics/sql-server-recursive-cte/
   - https://docs.microsoft.com/en-us/sql/t-sql/queries/with-common-table-expression-transact-sql?view=sql-server-ver15
+  - https://www.youtube.com/watch?v=VBja7KnzOs8
  
 ``` 
 WITH expression_name (column_list)
@@ -59,6 +60,18 @@ WITH expression_name (column_list)
     -- references expression name
     SELECT *
     FROM   expression_name 
+```
+```
+with cte_count as
+(
+  
+  select 1 n --<-- Anchor Member
+  union all
+  select n+1 --<-- Recursive Member
+  from cte_count
+  where n < 10 --<--Termination Check
+  
+  select n from cte_count --<--Invocation
 ```
 # Cursors (Transact-SQL)
   A database cursor is an object that enables traversal over the rows of a result set. It allows you to process individual row returned by a query.
