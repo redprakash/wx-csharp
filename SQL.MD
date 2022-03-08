@@ -10,3 +10,50 @@
  ### Right Join = inner join + any additional records in the right table
  ### Full Join = inner join + all remaining records from left table + all remaining records from right table
   
+# Trigger
+  An Event driben T-SQL Programming block which runs automatically when a particular event occurs
+  ` create trigger [trigger_name] 
+    [before | after]  
+    {insert | update | delete}  
+    on [table_name]  
+    [for each row]  
+    [trigger_body] `
+    
+  ### Insert, Update, Delete -> DML Command -> DML Trigger
+  ### Create, Alter, Drop -> DDL Command -> DDL Trigger
+  ## Logon triggers which fire in response to LOGON events
+  - https://www.youtube.com/watch?v=loF5gP738YU
+  - https://www.sqlservertutorial.net/sql-server-triggers/
+  - https://www.geeksforgeeks.org/sql-trigger-student-database/#:~:text=Explanation%20of%20syntax%3A,This%20specifies%20the%20DML%20operation.
+ 
+  
+# VIEWS
+  In SQL, a view is a virtual table based on the result-set of an SQL statement.A view contains rows and columns, 
+  just like a real table. The fields in a view are fields from one or more real tables in the database.
+  
+  ` CREATE VIEW view_name AS
+    SELECT column1, column2, ...
+    FROM table_name
+    WHERE condition; `
+    
+# Recursive Queries
+  A recursive common table expression (CTE) is a CTE that references itself. By doing so, 
+  the CTE repeatedly executes, returns subsets of data, until it returns the complete result set.
+  - https://www.sqlservertutorial.net/sql-server-basics/sql-server-recursive-cte/
+  - https://docs.microsoft.com/en-us/sql/t-sql/queries/with-common-table-expression-transact-sql?view=sql-server-ver15
+  
+  ` WITH expression_name (column_list)
+    AS
+    (
+        -- Anchor member
+        initial_query  
+        UNION ALL
+        -- Recursive member that references expression_name.
+        recursive_query  
+    )
+    -- references expression name
+    SELECT *
+    FROM   expression_name `
+    
+    
+    
