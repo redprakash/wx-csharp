@@ -57,7 +57,7 @@
     SELECT *
     FROM   expression_name `
     
-# Cursor
+# Cursors (Transact-SQL)
   A database cursor is an object that enables traversal over the rows of a result set. It allows you to process individual row returned by a query.
   - https://www.sqlservertutorial.net/sql-server-stored-procedures/sql-server-cursor/
   ![image](https://user-images.githubusercontent.com/11143215/157333980-e8dbf2ef-8762-4c3d-896a-4121727f3272.png)
