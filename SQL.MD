@@ -12,12 +12,14 @@
   
 # Trigger
   An Event driben T-SQL Programming block which runs automatically when a particular event occurs
-  ` create trigger [trigger_name] 
-    [before | after]  
-    {insert | update | delete}  
-    on [table_name]  
-    [for each row]  
-    [trigger_body] `
+``` 
+create trigger [trigger_name] 
+[before | after]  
+{insert | update | delete}  
+on [table_name]  
+[for each row]  
+[trigger_body] 
+```
     
   ### Insert, Update, Delete -> DML Command -> DML Trigger
   ### Create, Alter, Drop -> DDL Command -> DDL Trigger
@@ -31,20 +33,21 @@
   In SQL, a view is a virtual table based on the result-set of an SQL statement.A view contains rows and columns, 
   just like a real table. The fields in a view are fields from one or more real tables in the database.
   
- `
+```
   CREATE VIEW view_name AS
     SELECT column1, column2,..
     FROM table_name
     WHERE condition; 
-   `
+```   
     
 # Recursive Queries
   A recursive common table expression (CTE) is a CTE that references itself. By doing so, 
   the CTE repeatedly executes, returns subsets of data, until it returns the complete result set.
   - https://www.sqlservertutorial.net/sql-server-basics/sql-server-recursive-cte/
   - https://docs.microsoft.com/en-us/sql/t-sql/queries/with-common-table-expression-transact-sql?view=sql-server-ver15
-  
-  ` WITH expression_name (column_list)
+ 
+``` 
+WITH expression_name (column_list)
     AS
     (
         -- Anchor member
@@ -55,8 +58,8 @@
     )
     -- references expression name
     SELECT *
-    FROM   expression_name `
-    
+    FROM   expression_name 
+```
 # Cursors (Transact-SQL)
   A database cursor is an object that enables traversal over the rows of a result set. It allows you to process individual row returned by a query.
   - https://www.sqlservertutorial.net/sql-server-stored-procedures/sql-server-cursor/
@@ -68,11 +71,16 @@
   stored procedure, so that the stored procedure can act based on the parameter value(s) that is passed.
   - https://www.w3schools.com/sql/sql_stored_procedures.asp
   - https://www.sqlservertutorial.net/sql-server-stored-procedures/
-```CREATE PROCEDURE procedure_name
+
+
+```
+CREATE PROCEDURE procedure_name
 AS
 sql_statement
 GO;
 ```
+Execute a Stored Procedure
+``` EXEC procedure_name; ```
 
     
     
