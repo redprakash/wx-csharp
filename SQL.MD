@@ -62,6 +62,17 @@
   - https://www.sqlservertutorial.net/sql-server-stored-procedures/sql-server-cursor/
   ![image](https://user-images.githubusercontent.com/11143215/157333980-e8dbf2ef-8762-4c3d-896a-4121727f3272.png)
 
-    
+# SQL Stored Procedures
+  A stored procedure is a prepared SQL code that you can save, so the code can be reused over and over again.So if you have an SQL query 
+  that you write over and over again, save it as a stored procedure, and then just call it to execute it.You can also pass parameters to a 
+  stored procedure, so that the stored procedure can act based on the parameter value(s) that is passed.
+  - https://www.w3schools.com/sql/sql_stored_procedures.asp
+  - https://www.sqlservertutorial.net/sql-server-stored-procedures/
+```CREATE PROCEDURE procedure_name
+AS
+sql_statement
+GO;
+```
+
     
     
