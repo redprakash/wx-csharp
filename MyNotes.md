@@ -10,7 +10,9 @@
   - Exception Manager -> Raise notifications while run-time eroors, Creates Exception logs
   - Thread Manager -> Create threads (background process) to execute the code
   - Security Manager -> Verifies whether the application has permission to acces system resources or not
-
+### What is Assembly
+    A single unit of deployment
+    - https://www.youtube.com/watch?v=lx2tSY4joDg
 ### .NET Framework
 ` A platform to build different types of applications `
 
@@ -69,6 +71,9 @@
         - Ex: string,Classes,Interfaces,Structures,Enumerations
     
  ### Heap  vs Stack
+        - Objects are stored inside the `Heap`
+        - For each method call a new stack call will be created
+        
     - https://www.c-sharpcorner.com/article/C-Sharp-heaping-vs-stacking-in-net-part-i/
  
  
