@@ -60,6 +60,18 @@
         - For all private fields
         - Ex: _customerName
 
+### Primitive Types
+        - Strictly stores single values
+        - Ex: sbyte,byte,shore,int,long,float,double,decimal,char,bool
+### Non-Primite Types
+        - Stores one or more values
+        - Usually contains multiple members
+        - Ex: string,Classes,Interfaces,Structures,Enumerations
+    
+ ### Heap  vs Stack
+    - https://www.c-sharpcorner.com/article/C-Sharp-heaping-vs-stacking-in-net-part-i/
+ 
+ 
 
 
 
