@@ -12,7 +12,7 @@
   - Security Manager -> Verifies whether the application has permission to acces system resources or not
 ### What is Assembly
     A single unit of deployment
-    - https://www.youtube.com/watch?v=lx2tSY4joDg
+- https://www.youtube.com/watch?v=lx2tSY4joDg
 ### .NET Framework
 ` A platform to build different types of applications `
 
@@ -74,18 +74,59 @@
         - Objects are stored inside the `Heap`
         - For each method call a new stack call will be created
         
-    - https://www.c-sharpcorner.com/article/C-Sharp-heaping-vs-stacking-in-net-part-i/
+ - https://www.c-sharpcorner.com/article/C-Sharp-heaping-vs-stacking-in-net-part-i/
+
+### Constant vs Readonly vs Static Keywords in C#
+- https://www.c-sharpcorner.com/UploadFile/2072a9/constant-vs-readonly-vs-static-keywords-in-C-Sharp/
  
  
+### Parameter Modifiers
+Specifies how the poarameter receives a value
+    Types
+        - Default [No Keyword]
+        - ref
+        - out / out declaration
+        - in
+        - params
 
+- https://dev.to/rooktko/passing-parameters-with-modifiers-in-c-57ll
 
+### Local Functions
+    Local Functions are functions, to do some small process which is written inside a nethod
+    Local functions are not part of the calss, they can't be called directly through reference variable
+    Local function do not support "access modifiers" and "modifiers"
+```
+public void MethodName(param1,param2, ..)
+{
+    LocalFunctionName(); --<-- Calling the local functions
+    ReturnDataType LocalFunctionName(param1,param2,..)
+    {
+        //Local function Body here
+    }
+}
 
+```
+### Static Local Functions
+    Same as the local functions, only difference is, static local functions cannot access localvariables or parameters of containing method
+    This is to avoid accidental access of local variables or parameters of containing method, inside the local function
 
+```
+public void MethodName(param1,param2,...)
+{
+     LocalFunctionName(); --<-- Calling the local functions
+     static ReturnDataType LocalFunctionName(param1,param2,..)
+    {
+        //We cannot access local variables or parameters of containing method
+    }
+}
+```
 
-
-
-
-
-
+### Type Casting
+    1. Implicit Casting : (from lower-numerical-type to higher numerical type ex: int -> long)
+    2. Explicit Casting : (from higher numerical type to lower numerical type ex: long -> int)
+    3. Parsing / TryParse : from string to numerical-type ex: numerical string-> integer or numerical string -> double
+        Try parse checks the value before converting. 
+    4. Conversion Methods : (from any primitve type to any primitive type)
+         Syntax: type destinationVariable = Convert.ConversionMethod(SourceValue)
 
 
