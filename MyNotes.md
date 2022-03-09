@@ -47,16 +47,16 @@
     Ex: If we have classes like, Student, Professors, Staffs then it can be grouped under `university` namespace
     
 ### C# Naming Conventions
-  ## camelCase
+  #### camelCase
         - For all local variables, parameters
         - Ex: customerName
-  ## PascalCase
+  #### PascalCase
         - For all class names, structure names, namespace names, filed names, method names, property names
         - ex: CustomerName
-  ## IPascalCase
+  #### IPascalCase
         - For all interfaces names
         - Ex: ICustomerName
-  ## _camelCase
+  #### _camelCase
         - For all private fields
         - Ex: _customerName
 
