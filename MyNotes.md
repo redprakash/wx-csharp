@@ -24,8 +24,8 @@
     Examples, Console, String, Thread, Task classes
 
 ### ADO .NET
-    Contains a set of pre-defined classes that can be used in all types of .net applications and languuages for connection to databases, retrieving data
-    from databases, inserting, updating, deleting rows etc.
+    Contains a set of pre-defined classes that can be used in all types of .net applications and languuages for connection 
+    to databases, retrieving data from databases, inserting, updating, deleting rows etc.
     Examples: SqlConnection, Sql Command, SqlDataReader, SqlDataAdapter etc
     
 ### ASP .NET
@@ -46,3 +46,29 @@
     namespace is grouping classes that are meant for specific purpose.
     Ex: If we have classes like, Student, Professors, Staffs then it can be grouped under `university` namespace
     
+### C# Naming Conventions
+  ## camelCase
+        - For all local variables, parameters
+        - Ex: customerName
+  ## PascalCase
+        - For all class names, structure names, namespace names, filed names, method names, property names
+        - ex: CustomerName
+  ## IPascalCase
+        - For all interfaces names
+        - Ex: ICustomerName
+  ## _camelCase
+        - For all private fields
+        - Ex: _customerName
+
+
+
+
+
+
+
+
+
+
+
+
+
