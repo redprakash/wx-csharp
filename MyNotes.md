@@ -129,4 +129,30 @@ public void MethodName(param1,param2,...)
     4. Conversion Methods : (from any primitve type to any primitive type)
          Syntax: type destinationVariable = Convert.ConversionMethod(SourceValue)
 
+## Indexer
+    It is a special member of a class, which contains set-accessor ang get-accessor to access a group of items/ elements
+- https://www.tutorialsteacher.com/csharp/csharp-indexer
+```
+public class Car
+{
+    private string[] _brands = new string[]{"Skoda","Hyunda","haval"}
+    public string this[int index]
+    {
+        set { this._brands[index] = value; }
+        get { return _brands[index] }
+    }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
