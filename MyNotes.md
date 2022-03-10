@@ -211,6 +211,31 @@ public partial Clas_name
 - https://www.c-sharpcorner.com/article/boxing-and-unboxing-in-C-Sharp/   
 
 
+### Generics
+    Generics allow you to define the specification of the data type of programming elements in a class or a method, 
+    until it is actually used in the program. In other words, generics allow you to write a class or method that can work with any data type.
+  
+- https://www.tutorialspoint.com/csharp/csharp_generics.htm
+
+### Generic Constraints (restrictions on generic parameters)
+    - where T:class
+    - where T:struct
+    - where T : ClassName
+    - where T : InterfaceName
+    - where T : new()
+    
+```
+class ClassName<T> where T :class
+{
+    public T FieldName;
+}
+``` 
+### Null coalescing operator
+    It checks wheter the value is null or not
+        > It returns left-hand-side operand if the value is not null
+        > It returns the right-hand-side operand if the value is null
+    ``` variableName ?? valueIfNull ```
+    
 
 
 
