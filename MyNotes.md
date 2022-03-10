@@ -143,6 +143,51 @@ public class Car
     }
 }
 ```
+### Sealed Classes and  Sealed Methods
+    A sealed class, in C#, is a class that cannot be inherited by any class but can be instantiated.
+    The design intent of a sealed class is to indicate that the class is specialized and there is no need to extend it to 
+    provide any additional functionality through inheritance to override its behavior. A sealed class is often used to encapsulate 
+    a logic that needs to be used across the program but without any alteration to it.
+    
+    The method that is defined in a parent class, if that method cannot be overridden under a child class, we call it a sealed method. 
+    By default, every method is a sealed method because overriding is not possible unless the method is not declared as virtual in the parent class. 
+    If a method is declared as virtual in a class, any child class of it can have the right to override that method
+    
+- https://dotnettutorials.net/lesson/sealed-class-methods-csharp/
+
+
+### Abstract Class
+    An abstract class is a special type of class that cannot be instantiated. An abstract class is designed to be inherited 
+    by subclasses that either implement or override its methods
+    
+- https://www.geeksforgeeks.org/c-sharp-abstract-classes/    
+    
+### Abstract Method
+    An Abstract method is a method without a body. The implementation of an abstract method is done by a derived class. 
+    When the derived class inherits the abstract method from the abstract class, it must override the abstract method. This requirment 
+    is enforced at compile time and is also called dynamic polymorphism.
+
+- https://dotnettutorials.net/lesson/abstract-class-abstract-methods-csharp/
+
+### Partial Class
+    A partial class is a special feature of C#. It provides a special ability to implement the functionality of a single class into multiple
+    files and all these files are combined into a single class file when the application is compiled. A partial class is created by using a 
+    partial keyword. This keyword is also useful to split the functionality of methods, interfaces, or structure into multiple files
+```
+public partial Clas_name  
+{
+        // code
+}
+```
+### C# Enumerations Type - Enum
+    In C#, an enum (or enumeration type) is used to assign constant names to a group of numeric integer values. 
+    It makes constant values more readable, for example, WeekDays.Monday is more readable then number 0 when referring to the day in a week.
+- https://www.tutorialsteacher.com/csharp/csharp-enum
+
+
+
+
+
 
 
 
