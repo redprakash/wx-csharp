@@ -107,7 +107,8 @@ public void MethodName(param1,param2, ..)
 
 ```
 ### Static Local Functions
-    Same as the local functions, only difference is, static local functions cannot access localvariables or parameters of containing method
+    Same as the local functions, only difference is, static local functions cannot access localvariables or parameters 
+    of containing method
     This is to avoid accidental access of local variables or parameters of containing method, inside the local function
 
 ```
@@ -150,7 +151,8 @@ public class Car
     a logic that needs to be used across the program but without any alteration to it.
     
     The method that is defined in a parent class, if that method cannot be overridden under a child class, we call it a sealed method. 
-    By default, every method is a sealed method because overriding is not possible unless the method is not declared as virtual in the parent class. 
+    By default, every method is a sealed method because overriding is not possible unless the method is not declared as virtual 
+    in the parent class. 
     If a method is declared as virtual in a class, any child class of it can have the right to override that method
     
 - https://dotnettutorials.net/lesson/sealed-class-methods-csharp/
