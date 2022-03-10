@@ -234,7 +234,7 @@ class ClassName<T> where T :class
     It checks wheter the value is null or not
         > It returns left-hand-side operand if the value is not null
         > It returns the right-hand-side operand if the value is null
-    ``` variableName ?? valueIfNull ```
+``` variableName ?? valueIfNull ```
     
 
 
