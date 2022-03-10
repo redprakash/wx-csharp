@@ -1,6 +1,7 @@
 # C#
     It is a general purpose programming language for mainly used for development of console apps,
     Windows GUI and Windows Services. It is strongly tped language. It is compiler based language
+
 ### Components of CLR (Common Language Runtime)
 `It is Run Time Engine that is used to execute applications`
   - Class Loader -> (Loading classes from compiled source code to memory)
@@ -10,9 +11,11 @@
   - Exception Manager -> Raise notifications while run-time eroors, Creates Exception logs
   - Thread Manager -> Create threads (background process) to execute the code
   - Security Manager -> Verifies whether the application has permission to acces system resources or not
+
 ### What is Assembly
     A single unit of deployment
 - https://www.youtube.com/watch?v=lx2tSY4joDg
+
 ### .NET Framework
 ` A platform to build different types of applications `
 
@@ -188,8 +191,24 @@ public partial Clas_name
 
 
 
+### Readonly strucutures
+>Use readonly struct  in case of following
+    - All fileds are readonly
+    - All properties have only 'get' accessors(readonly properties)
+    - There is a prameterized constructor that initializes all the fields
+    - You dont want to allow to change any field or property of the structure
+    - Methods can read fields, but cannot modify
 
 
+
+### Boxing & Unboxing
+   #### Boxing is the process of converting a value from "Value-Type Data Type" to Reference-Type Data Type", if compatible
+   #### Unboxing is a process of converting a value from "reference-type Data Type to "Value-Type Data Type", if compatible
+    Boxing and unboxing in C# allows developers to convert .NET data types from value type to reference type and vice versa. 
+    Converting a value type to a reference type is called called boxing in C# and converting a reference type to a value type 
+    is called unboxing in C#. 
+    
+- https://www.c-sharpcorner.com/article/boxing-and-unboxing-in-C-Sharp/   
 
 
 
