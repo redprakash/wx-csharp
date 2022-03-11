@@ -248,8 +248,8 @@ class ClassName<T> where T :class
 
 
 ### Extension Methods
-    It is a new feature that has been added in C# 3.0 which allows us to `add new methods into a class without editing the 
-    source code of the class` i.e. if a class consists of a set of members in it and in the future if you want to add new methods 
+    It is a new feature that has been added in C# 3.0 which allows us to add new methods into a class without editing the 
+    source code of the class i.e. if a class consists of a set of members in it and in the future if you want to add new methods 
     into the class, you can add those methods without making any changes to the source code of the class.
     
 - https://dotnettutorials.net/lesson/extension-methods-csharp/
