@@ -236,7 +236,15 @@ class ClassName<T> where T :class
         > It returns the right-hand-side operand if the value is null
 ``` variableName ?? valueIfNull ```
     
-
+### Null Propagation Operator
+    The "Null Propagation Operator (?.) and (? [] ) checks the value of left-hand operand 
+    whether it is null or not
+        -> It returns the right-hand-side operand (property or method), if the value is not null
+        -> It returns null, if the value is null
+    It accesses the property or method, only if the reference variable is "not null", just returns "null", if reference variable is "null"
+    
+`referenceVariable?.fieldName; `
+    
 
 
 
