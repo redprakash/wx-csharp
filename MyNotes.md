@@ -255,9 +255,36 @@ class ClassName<T> where T :class
 - https://dotnettutorials.net/lesson/extension-methods-csharp/
     
 
+### Pattern Matching
+    Pattern matching is the process of taking an expression and testing whether it matches certain criteria, such as 
+    ‘being a specified type’ or ‘matching a specified constant value’. C# supports various different patterns
+    
+    It allows yu to declare a variable, while checking the data type (class) of a reference variable, and automatically 
+    type-casts the reference variable into the specified data type (class)
+```
+if(referenceVaribale  is Class c1)
+{
+    c1.Property..
+}
+```
+- https://www.c-sharpcorner.com/article/pattern-matching-in-c-sharp-7-0/
+- https://endjin.com/blog/2022/02/pattern-matching-in-csharp
+- https://timdeschryver.dev/blog/pattern-matching-examples-in-csharp#why-pattern-matching
 
 
+### Delegates
+    A delegate is a reference type variable that holds the reference to a method. The reference can be changed at runtime.
+    There are three steps involved while working with delegates:
 
+        1. Declare a delegate
+        2. Set a target method
+        3. Invoke a delegate
+        
+- https://www.tutorialspoint.com/csharp/csharp_delegates.htm
+- https://www.tutorialsteacher.com/csharp/csharp-delegates
+
+#### Delegate Syntax
+``` [access modifier] delegate [return type] [delegate name]([parameters]) ```
 
 
 
