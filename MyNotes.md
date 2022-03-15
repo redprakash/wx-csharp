@@ -286,5 +286,23 @@ if(referenceVaribale  is Class c1)
 #### Delegate Syntax
 ``` [access modifier] delegate [return type] [delegate name]([parameters]) ```
 
+### Tuple
+    A tuple is a data structure that contains a sequence of elements of different data types. It can be used where you want to 
+    have a data structure to hold an object with properties, but you don't want to create a separate type for it
+    
+- https://www.tutorialsteacher.com/csharp/csharp-tuple#:~:text=A%20tuple%20is%20a%20data,a%20separate%20type%20for%20it.
+
+
+The following example creates a tuple with three elements:
+```
+Tuple<int, string, string> person = 
+                        new Tuple <int, string, string>(1, "Steve", "Jobs");
+```
+    
+
+## To Explore
+ - Anonymous Types
+ - Anonymous Arrays
+ - 
 
 
