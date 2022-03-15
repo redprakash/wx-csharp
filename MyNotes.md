@@ -303,6 +303,11 @@ Tuple<int, string, string> person =
 ## To Explore
  - Anonymous Types
  - Anonymous Arrays
- - 
+ - Discards ( _ ) (skipping the value/s) 
+ - Summary and Regions usage
+ - LINQ extension methods
+ - String
+
+
 
 
