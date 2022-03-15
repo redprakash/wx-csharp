@@ -309,9 +309,18 @@ Tuple<int, string, string> person =
     - Exception Logger
     - Stack trace
 
+## C# 9 and 10 - New Features
+- Top Level Statements
+- File Scoped Namespaces
+- Global Using
+- Module Initializer
+    - https://khalidabuhakmeh.com/module-initializers-in-csharp-9
+- Nullable Reference Types
+- Null Forgiving Operator
+- Pattern Matching - Switch Expression Pattern
+- Records
 
-
-## To Explore
+## Explore
  - Anonymous Types
  - Anonymous Arrays
  - Discards ( _ ) (skipping the value/s) 
@@ -319,7 +328,8 @@ Tuple<int, string, string> person =
  - LINQ extension methods
  - String ( https://www.udemy.com/course/c-sharp-oop-ultimate-guide-project-master-class/learn/lecture/29157312#overview )
  - Regular Expressions
- - 
+ - System.IO namespace
+ - Json Serialization
 
 
 
