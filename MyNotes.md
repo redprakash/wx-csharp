@@ -299,6 +299,17 @@ Tuple<int, string, string> person =
                         new Tuple <int, string, string>(1, "Steve", "Jobs");
 ```
     
+### Exception Handling
+    - DividedByZero
+    - FormatException
+    - IndexOutOfRangeException
+    - NullReferenceException
+    - ArgumentNullException
+    - Custom Exceptions
+    - Exception Logger
+    - Stack trace
+
+
 
 ## To Explore
  - Anonymous Types
@@ -306,7 +317,10 @@ Tuple<int, string, string> person =
  - Discards ( _ ) (skipping the value/s) 
  - Summary and Regions usage
  - LINQ extension methods
- - String
+ - String ( https://www.udemy.com/course/c-sharp-oop-ultimate-guide-project-master-class/learn/lecture/29157312#overview )
+ - Regular Expressions
+ - 
+
 
 
 
