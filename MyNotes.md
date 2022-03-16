@@ -298,7 +298,12 @@ The following example creates a tuple with three elements:
 Tuple<int, string, string> person = 
                         new Tuple <int, string, string>(1, "Steve", "Jobs");
 ```
-    
+
+### Yield Return
+- https://www.youtube.com/watch?v=HRXkeaeImGs&list=PLKjV8hx8vwdiwd-5oOI212YSe1lBCYpuO&index=1&t=86s
+- https://www.youtube.com/watch?v=AAz8q6dOCYk
+
+
 ### Exception Handling
     - DividedByZero
     - FormatException
@@ -319,6 +324,7 @@ Tuple<int, string, string> person =
 - Null Forgiving Operator
 - Pattern Matching - Switch Expression Pattern
 - Records
+
 
 ## Explore
  - Anonymous Types
