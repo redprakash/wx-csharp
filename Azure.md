@@ -55,6 +55,22 @@
       - No message loss
       - Possible message duplication
 
+## Publish Subscribe Messaging
+### Filter Types
+![image](https://user-images.githubusercontent.com/11143215/160364789-9c472b6c-85fd-49fc-a5ae-328665b3177f.png)
+
+### Creating Topics with Default Subscriptions
+![image](https://user-images.githubusercontent.com/11143215/160364958-f070984f-496e-426d-bf38-461f9e5d441b.png)
+
+### Creating Sql Filtered Subscriptions
+![image](https://user-images.githubusercontent.com/11143215/160365181-3e2b86ac-3b83-4a6d-a65e-e2b778dd288a.png)
+
+### Using Correlation Filters
+![image](https://user-images.githubusercontent.com/11143215/160365715-298b88f9-ccbd-4aac-a72a-8c40bb714414.png)
+
+
+
+
 ### What is Azure Service Bus?
 - https://www.youtube.com/watch?v=fERL-FXDEAg
 
