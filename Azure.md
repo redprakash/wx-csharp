@@ -28,6 +28,12 @@
 ### Adding Subscriptions to Topics
 ![image](https://user-images.githubusercontent.com/11143215/160317591-d10680e8-fce2-45b6-8bc1-004e0f5a8fa9.png)
 
+### Sending Messages
+![image](https://user-images.githubusercontent.com/11143215/160321051-6c565c88-b703-4b67-b9ec-7662bba34298.png)
+
+### Sending Messages Batches
+![image](https://user-images.githubusercontent.com/11143215/160321104-fa67b3a3-d7d4-4709-b18f-f7665b1d42ce.png)
+
 
 ### What is Azure Service Bus?
 - https://www.youtube.com/watch?v=fERL-FXDEAg
