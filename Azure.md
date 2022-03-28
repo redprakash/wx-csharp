@@ -1,4 +1,8 @@
 ## Azure
+#### Course Reference
+- https://app.pluralsight.com/library/courses/azure-service-bus-in-depth/table-of-contents
+
+
 ## 5 Different Messaging Services
 1. Service Bus
 2. Event Hub
@@ -28,12 +32,28 @@
 ### Adding Subscriptions to Topics
 ![image](https://user-images.githubusercontent.com/11143215/160317591-d10680e8-fce2-45b6-8bc1-004e0f5a8fa9.png)
 
-### Sending Messages
+## Sending Messages
+### Sending Messages Individual
 ![image](https://user-images.githubusercontent.com/11143215/160321051-6c565c88-b703-4b67-b9ec-7662bba34298.png)
 
 ### Sending Messages Batches
 ![image](https://user-images.githubusercontent.com/11143215/160321104-fa67b3a3-d7d4-4709-b18f-f7665b1d42ce.png)
 
+## Receiving and Processing Messages
+#### Multi-threaded Message Receiving
+1.Receive and Delete
+  - Message received and deleted in one operation
+  - No option to abandon, defer, or dead-letter message
+  - At most once delivery
+      - No duplicate Processing
+      - Possible message loss
+2. Peak Lock
+  - Two phase receive
+  - Message can be abandoned, deferred or dead-lettered
+  - Receiver is responsible for message completion
+  - At least once delivery
+      - No message loss
+      - Possible message duplication
 
 ### What is Azure Service Bus?
 - https://www.youtube.com/watch?v=fERL-FXDEAg
