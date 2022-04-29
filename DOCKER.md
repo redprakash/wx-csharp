@@ -12,7 +12,10 @@
 
 # Dockerfile
 We can take any application and dockerize it by adding Dockerfile into it
-- Docker file consists of instructions for packaging an application into an image. Once we have the Docker image we can run it anywhere. Any machine where the   docker engine is installed. 
+- Docker file consists of instructions for packaging an application into an image. Once we have the Docker image we can run it anywhere. Any machine where the   docker engine is installed.
+
+![image](https://user-images.githubusercontent.com/11143215/165869251-22c3e69b-f001-480b-b504-c9db029172a9.png)
+
 
 # Docker Commands
 https://docs.docker.com/engine/reference/commandline/docker/
