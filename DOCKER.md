@@ -18,19 +18,19 @@ We can take any application and dockerize it by adding Dockerfile into it
 https://www.edureka.co/blog/docker-commands/
 - ``` docker --version ``` => get the currently installed version of docker
 - ``` docker ps ``` => list of processes or running containers
-- docker ps -a => List of all the containers
-- docker exec -it <container id> bash => access the running container
-- docker run -it -d <image name> => create a container from an image
-- docker pull <image name> => pull images from the docker repository(hub.docker.com)
-- docker stop <container id> => stops a running container
-- docker kill <container id> => This command kills the container by stopping its execution immediately. The difference between ‘docker kill’ and ‘docker stop’ is that ‘docker stop’ gives the container time to shutdown gracefully, in situations when it is taking too much time for getting the container to stop, one can opt to kill it
-- docker commit <conatainer id> <username/imagename> => creates a new image of an edited container on the local system
-- docker login => used to login to the docker hub repository
-- docker push <username/image name> => used to push an image to the docker hub repository
-- docker images => lists all the locally stored docker images
-- docker rm <container id> => used to delete a stopped container
-- docker rmi <image-id> => used to delete an image from local storage
-- docker build <path to docker file> =>  build an image from a specified docker file
+- ``` docker ps -a ``` => List of all the containers
+- ``` docker exec -it <container id> bash ``` => access the running container
+- ``` docker run -it -d <image name> ``` => create a container from an image
+- ``` docker pull <image name> ``` => pull images from the docker repository(hub.docker.com)
+- ``` docker stop <container id> ``` => stops a running container
+- ``` docker kill <container id> ``` => This command kills the container by stopping its execution immediately. The difference between ‘docker kill’ and ‘docker stop’ is that ‘docker stop’ gives the container time to shutdown gracefully, in situations when it is taking too much time for getting the container to stop, one can opt to kill it
+- ``` docker commit <conatainer id> <username/imagename> ``` => creates a new image of an edited container on the local system
+- ``` docker login ``` => used to login to the docker hub repository
+- ``` docker push <username/image name> ``` => used to push an image to the docker hub repository
+- ``` docker images ``` => lists all the locally stored docker images
+- ``` docker rm <container id> ``` => used to delete a stopped container
+- ``` docker rmi <image-id> ``` => used to delete an image from local storage
+- ``` docker build <path to docker file> ``` =>  build an image from a specified docker file
 
 
 ### Open the container in the interactive(it) mode
