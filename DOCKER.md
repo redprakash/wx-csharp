@@ -10,6 +10,8 @@
 ### Image consists of the following 
 ![image](https://user-images.githubusercontent.com/11143215/165864441-0599406e-2194-4b75-ac02-108e0e61585b.png)
 
+``` The docker image is readonly and cannot be changed once created. If we do some changes in the codebase then we build another image. This is where we utilize the tag. We can version our image ```
+
 # Dockerfile
 https://takacsmark.com/dockerfile-tutorial-by-example-dockerfile-best-practices-2018/
 We can take any application and dockerize it by adding Dockerfile into it
