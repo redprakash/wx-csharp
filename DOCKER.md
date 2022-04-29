@@ -11,6 +11,7 @@
 ![image](https://user-images.githubusercontent.com/11143215/165864441-0599406e-2194-4b75-ac02-108e0e61585b.png)
 
 # Dockerfile
+https://takacsmark.com/dockerfile-tutorial-by-example-dockerfile-best-practices-2018/
 We can take any application and dockerize it by adding Dockerfile into it
 - Docker file consists of instructions for packaging an application into an image. Once we have the Docker image we can run it anywhere. Any machine where the   docker engine is installed.
 
