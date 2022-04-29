@@ -15,8 +15,10 @@ We can take any application and dockerize it by adding Dockerfile into it
 - Docker file consists of instructions for packaging an application into an image. Once we have the Docker image we can run it anywhere. Any machine where the   docker engine is installed. 
 
 # Docker Commands
-#### docker ps => list of processes or running containers
-#### docker ps -a => List of all the containers
+    - docker ps => list of processes or running containers
+    - docker ps -a => List of all the containers
+    - docker --version => get the currently installed version of docker
+    - 
 
 ### Open the container in the interactive(it) mode
 ``` docker run -it mycontainer ```
