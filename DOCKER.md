@@ -34,7 +34,7 @@ https://www.edureka.co/blog/docker-commands/
 
 
 ### Open the container in the interactive(it) mode
-``` docker run -it mycontainer ```
+``` docker run -it <container_name> ```
 
 ### Interact with the ubuntu shell using docker
 ``` docker run ubuntu ```
