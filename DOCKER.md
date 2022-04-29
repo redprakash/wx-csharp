@@ -39,7 +39,7 @@ https://www.edureka.co/blog/docker-commands/
 - ``` docker build <path to docker file> ``` =>  build an image from a specified docker file
 
 ## Docker run explained
-``` docker run -d --name name-0f-container -p 8080:80 name-of-the-image-to-use
+``` docker run -d --name name-0f-container -p 8080:80 name-of-the-image-to-use ```
 ### -d = run the container in detached mode (in the background)
 ### --name = the name that you want to give to the container
 ### -p = map the port from the container to your machine. the left side is your machine's port. The port that you want to be in your machine. The right hand side will be port number of your docker container. (8080:80 => left side is your machine and right side is the image)
