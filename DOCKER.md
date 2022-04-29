@@ -16,8 +16,8 @@ We can take any application and dockerize it by adding Dockerfile into it
 
 # Docker Commands
 https://www.edureka.co/blog/docker-commands/
-- docker --version => get the currently installed version of docker
-- docker ps => list of processes or running containers
+- ``` docker --version ``` => get the currently installed version of docker
+- ``` docker ps ``` => list of processes or running containers
 - docker ps -a => List of all the containers
 - docker exec -it <container id> bash => access the running container
 - docker run -it -d <image name> => create a container from an image
