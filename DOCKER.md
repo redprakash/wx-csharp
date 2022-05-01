@@ -54,4 +54,4 @@ https://www.edureka.co/blog/docker-commands/
 ``` docker run ubuntu ```
     - This will pull the latest ubuntu image from the registry and start the container if the image is not available locally
     - Alternatively we can use ```docker pull ubuntu ```
-### start playing around with the linux command in the cell
+### #Now start playing around with the linux command in the cell
