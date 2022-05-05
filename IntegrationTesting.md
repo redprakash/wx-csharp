@@ -38,5 +38,12 @@ test web host and an in-memory test server.
 <img src="https://user-images.githubusercontent.com/11143215/166863224-afebcf5d-a65a-4540-9fac-1d09fdc9cb86.png" width="500" height ="300">
 </p>
 
+---
+## If our intergration test passes then we can say the following points
+<p align="center">
+<img src="https://user-images.githubusercontent.com/11143215/166864027-92e34593-ec25-46f3-9acb-caad4cfb0018.png" width="600" height ="300">
+</p>
+
+
 
 
