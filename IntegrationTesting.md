@@ -59,8 +59,9 @@ test web host and an in-memory test server.
 ---
 
 ## Using Fixture class
-![image](https://user-images.githubusercontent.com/11143215/166864899-ef989093-38cc-4733-970d-c977f4dc3098.png)
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/11143215/166864899-ef989093-38cc-4733-970d-c977f4dc3098.png" width="600" height ="300">
+</p>
 
 ---
 
