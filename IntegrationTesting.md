@@ -39,11 +39,36 @@ test web host and an in-memory test server.
 </p>
 
 ---
+
 ## If our intergration test passes then we can say the following points
 <p align="center">
-<img src="https://user-images.githubusercontent.com/11143215/166864027-92e34593-ec25-46f3-9acb-caad4cfb0018.png" width="600" height ="300">
+<img src="https://user-images.githubusercontent.com/11143215/166864134-0df8058a-36d8-4d72-9259-0b371ee1f34d.png" width="600" height ="300">
 </p>
 
+---
+
+## The Key Steps
+  
+![image](https://user-images.githubusercontent.com/11143215/166864614-a46683db-8cd4-422c-a44b-93e6cde63357.png)
+
+
+---
+
+![image](https://user-images.githubusercontent.com/11143215/166864815-05d6aeef-0f66-48ac-903c-6e9e10ea69af.png)
+
+---
+
+## Using Fixture class
+![image](https://user-images.githubusercontent.com/11143215/166864899-ef989093-38cc-4733-970d-c977f4dc3098.png)
+
+
+---
+
+![image](https://user-images.githubusercontent.com/11143215/166865032-a4bb25af-6b92-4fbd-a2b9-3c463e41aa15.png)
+
+---
+## Simple implementation example of WebApplicationFactory
+![image](https://user-images.githubusercontent.com/11143215/166865248-8e0dd8fd-fcb9-4966-95bf-034ca2aca414.png)
 
 
 
