@@ -20,3 +20,23 @@ test web host and an in-memory test server.
 
 ---
 
+## ASP.NET CORE In-Memory Integration Testing works somewhere in between Unit Testing and Full Intergratiin Testing
+<p align="center">
+<img src="https://user-images.githubusercontent.com/11143215/166862944-e9e2235a-1ed4-40c3-804a-744e573c1dbf.png" width="500" height ="300">
+</p>
+
+---
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/11143215/166863082-053f4b76-e019-4f28-b4c7-99705cd66e19.png" width="500" height ="300">
+</p>
+
+---
+
+## Advantages of ASP.NET Core Integration Tests
+<p align="center">
+<img src="https://user-images.githubusercontent.com/11143215/166863224-afebcf5d-a65a-4540-9fac-1d09fdc9cb86.png" width="500" height ="300">
+</p>
+
+
+
