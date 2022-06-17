@@ -2,6 +2,21 @@
 #### Course Reference
 - https://app.pluralsight.com/library/courses/azure-service-bus-in-depth/table-of-contents
 
+#### Azure resources and Azure Resource Manager
+### Resource
+    A manageable item that's available through Azure. Virtual machines (VMs), storage accounts, web apps, 
+    databases, and virtual networks are examples of resources.
+### Resource group
+    A container that holds related resources for an Azure solution. The resource group includes resources 
+    that you want to manage as a group. You decide which resources belong in a resource group based on what
+    makes the most sense for your organization
+    
+    Resource groups are a fundamental element of the Azure platform. A resource group is a logical container for 
+    resources deployed on Azure. These resources are  anything you create in an Azure subscription like VMs, Azure Application 
+    Gateway instances, and Azure Cosmos DB instances. All resources must be in a resource group, and a resource can only be a member 
+    of a single resource group. Many resources can be moved between resource groups with some services having specific limitations or 
+    requirements to move. Resource groups can't be nested. Before any resource can be provisioned, you need a 
+    resource group for it to be placed in.
 
 ## 5 Different Messaging Services
 1. Service Bus
