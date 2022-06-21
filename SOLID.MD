@@ -5,7 +5,7 @@
 
 # Simple explanation with plain examples
 - https://www.youtube.com/watch?v=9qvCeRt9_hM&list=PLKjV8hx8vwdhLLhfIHG-CGIC1vmRwBiCF&index=27
-
+- https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898
 # Single Responsibility Principle
     `Each software module should have one and only one reason to change`
       A module in C# could be classes and methods
