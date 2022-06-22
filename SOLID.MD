@@ -18,10 +18,34 @@
    
 # Open/Closed Principle
   `Software entities(classes,modules,functions, etc) should be open for extension, but closed for modification`
+  ### Closed For Modification
+    New features getting added to the software component, should NOT have to modify existing code
+  
+  ### Open For Extension
+    A software component should be extendable to add a new feature or to add a new behavior to it.
   
 # Liskov Substitution Principle
+    Objects should be replaceable with their subtypes without affecting the correctness of the program
 
 # Interface Segreagation Principle
+    No clients should be forced to depend on methods it does not use
+    
+### Techniques to Identify Violations of ISP
+1. Fat Interfaces: An interface with lots of methods
+
+        public interface IMultifunction 
+        {
+            public void print();
+            public void getPrintSpoolDetails();
+            public void scan();
+            public void scanPhoto();
+            public void fac();
+            public void internetFax();
+
+        }
+    
+2. Interfaces with low cohesion
+
 
 # Dependency Inversion Principle
  
