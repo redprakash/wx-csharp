@@ -26,6 +26,7 @@
   
 # Liskov Substitution Principle
     Objects should be replaceable with their subtypes without affecting the correctness of the program
+   - https://www.youtube.com/watch?v=uUyWTjY0svw&list=PLu32uaFLEzKbzSEF6XQI8-8PpDFolmEJK
 
 # Interface Segreagation Principle
     No clients should be forced to depend on methods it does not use
