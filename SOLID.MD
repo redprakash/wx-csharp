@@ -45,6 +45,7 @@
         }
     
 2. Interfaces with low cohesion
+3. Empty or blank method implementations
 
 
 # Dependency Inversion Principle
