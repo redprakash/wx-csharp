@@ -16,5 +16,15 @@
     continuously monitor the operations log (oplog).
     
 # MongoDB Replica Set
+
+    A replica set in MongoDB is a group of mongod processes that maintain the same data set. Replica sets provide redundancy 
+    and high availability, and are the basis for all production deployments.
+    
     A Replica Set is a group of daemon processes for a data set that ensures that your data is distributed and replicated across 
     multiple servers. This ensures data integrity, especially in cases of any server failure or experience-related issues. 
+
+# Understanding Arbiter and Heartbeat in MongoDB
+- https://www.youtube.com/watch?v=c7nI4jwXzkA
+
+# MongoDB Replica Set Election
+- https://www.youtube.com/watch?v=fOsRJIHGLfk
