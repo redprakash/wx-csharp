@@ -1,5 +1,6 @@
 # Debugging with Visual Studio
 - https://www.youtube.com/watch?v=5CpVjfTx1vg
+- https://www.youtube.com/watch?v=U_UGuxqi_3E
 
 
 # Debugging tips and shortcuts
