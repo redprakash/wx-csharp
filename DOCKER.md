@@ -60,3 +60,18 @@ https://www.edureka.co/blog/docker-commands/
     - This will pull the latest ubuntu image from the registry and start the container if the image is not available locally
     - Alternatively we can use ```docker pull ubuntu ```
 #### Now start playing around with the linux command in the cell
+
+## Simple steps to try nginx/docker
+        FROM nginx:1.10.1-alpine
+        COPY src/html usr/share/nginx/html
+        # Copy our html files from src/html location to the nginx's usr/share/nginx/html where it keeps the files 
+        # EXPOSE 80
+        # CMD [ "nginx", "-g","daemon off;"  ]
+        #This cmd command is ran by nginx in default so we can leave this one if we are not making any changes
+        # AN IMAGE BECOMES A CONTAINER WHEN WE EXECUTE IT
+### Start Building the image and spinning the container => example -> follow the steps
+        docker build -t hello-internet:mytag .
+        docker run -d --name myContainerName -p 80:80 hello-internet:mytag  
+        
+        
+        
