@@ -28,6 +28,8 @@ https://docs.docker.com/engine/reference/commandline/docker/
 https://dockerlabs.collabnix.com/docker/cheatsheet/
 https://www.edureka.co/blog/docker-commands/
 - ``` docker --version ``` => get the currently installed version of docker
+- ``` docker build . ``` => docker run build and look for the dockerfile in relative path . (. the current folder)
+- ``` docker build -t name-u-want-to-for-image:tag-that-u-wantto-give . ``` => Builds the image with the name and tag that u wanted
 - ``` docker ps ``` => list of processes or running containers
 - ``` docker ps -a ``` => List of all the containers
 - ``` docker exec -it <container id> bash ``` => access the running container
