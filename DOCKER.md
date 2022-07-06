@@ -6,6 +6,9 @@
 - https://www.youtube.com/watch?v=pTFZFxd4hOI&t=430s
 ![image](https://user-images.githubusercontent.com/11143215/165864021-53f79534-5504-4e64-b21e-aeb17db70e81.png)
 
+## Build YOUR OWN Dockerfile, Image, and Container
+- https://www.youtube.com/watch?v=SnSH8Ht3MIc&list=WL&index=5
+
 # Image
 ### Image consists of the following 
 ![image](https://user-images.githubusercontent.com/11143215/165864441-0599406e-2194-4b75-ac02-108e0e61585b.png)
