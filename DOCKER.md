@@ -23,6 +23,8 @@ We can take any application and dockerize it by adding Dockerfile into it
 
 ![image](https://user-images.githubusercontent.com/11143215/165869251-22c3e69b-f001-480b-b504-c9db029172a9.png)
 
+## Dockerize .NET 6 in 10 Minutes
+- https://www.youtube.com/watch?v=3s-RfwvijpY&t=555s
 
 # Docker Commands
 https://docs.docker.com/engine/reference/commandline/docker/
