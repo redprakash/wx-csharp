@@ -27,6 +27,8 @@ We can take any application and dockerize it by adding Dockerfile into it
 - https://www.youtube.com/watch?v=3s-RfwvijpY&t=555s
 ![Screen Shot 2022-07-07 at 1 21 34 pm](https://user-images.githubusercontent.com/11143215/177683760-cc2bea93-5288-4f7a-8d56-a5f118c6f555.png)
 
+## Docker images for ASP.NET Core
+- https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/docker/building-net-docker-images?view=aspnetcore-6.0
 
 # Docker Commands
 https://docs.docker.com/engine/reference/commandline/docker/
