@@ -187,7 +187,8 @@ public partial Clas_name
 ```
 ### C# Enumerations Type - Enum
     In C#, an enum (or enumeration type) is used to assign constant names to a group of numeric integer values. 
-    It makes constant values more readable, for example, WeekDays.Monday is more readable then number 0 when referring to the day in a week.
+    It makes constant values more readable, for example, WeekDays.Monday is more readable then number 0 when referring 
+    to the day in a week.
 - https://www.tutorialsteacher.com/csharp/csharp-enum
 
 
