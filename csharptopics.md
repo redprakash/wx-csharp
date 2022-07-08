@@ -121,9 +121,7 @@
   - https://www.c-sharpcorner.com/UploadFile/736bf5/collection-in-C-Sharp/#:~:text=C%23%20collection%20types%20are%20designed,inserting%20items%20to%20a%20collection
   - https://www.tutorialspoint.com/csharp/csharp_collections.htm
 
-## Object Relational Mapper (ORM)
-  `An object-relational mapper provides an object-oriented layer between relational databases and object-oriented programming languages without having to write SQL queries. It standardizes interfaces reducing boilerplate and speeding development time.`
-  - https://www.altexsoft.com/blog/object-relational-mapping/
+
 
 ## Repository Pattern in C#
      Repository Design Pattern acts as a middleman or middle layer between the rest of the application and the data access logic. 
