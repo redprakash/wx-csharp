@@ -16,4 +16,4 @@
 
 ## Dapper Contrib
     - Great extensuons for simple straight forward sql statenents.
-    - https://github.com/DapperLib/Dapper.Contrib
+  - https://github.com/DapperLib/Dapper.Contrib
