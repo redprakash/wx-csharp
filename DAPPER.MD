@@ -1,6 +1,7 @@
 ## Object Relational Mapper (ORM)
     An object-relational mapper provides an object-oriented layer between relational databases and object-oriented
-    programming languages without having to write SQL queries. It standardizes interfaces reducing boilerplate and speeding development time.
+    programming languages without having to write SQL queries. It standardizes interfaces reducing boilerplate and speeding 
+    development time.
   - https://www.altexsoft.com/blog/object-relational-mapping/
 
 ## Dapper (Micro-ORM)
