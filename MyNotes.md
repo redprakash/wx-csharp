@@ -215,7 +215,8 @@ public partial Clas_name
 
 ### Generics
     Generics allow you to define the specification of the data type of programming elements in a class or a method, 
-    until it is actually used in the program. In other words, generics allow you to write a class or method that can work with any data type.
+    until it is actually used in the program. In other words, generics allow you to write a class or method that can 
+    work with any data type.
   
 - https://www.tutorialspoint.com/csharp/csharp_generics.htm
 
@@ -243,7 +244,8 @@ class ClassName<T> where T :class
     whether it is null or not
         -> It returns the right-hand-side operand (property or method), if the value is not null
         -> It returns null, if the value is null
-    It accesses the property or method, only if the reference variable is "not null", just returns "null", if reference variable is "null"
+    It accesses the property or method, only if the reference variable is "not null", just returns "null", 
+    if reference variable is "null"
     
 `referenceVariable?.fieldName; `
     
