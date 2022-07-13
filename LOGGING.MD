@@ -7,3 +7,6 @@
 
 ## C# Logging with Serilog and Seq
 - https://www.youtube.com/watch?v=_iryZxv8Rxw
+
+## How to Serilog Logging in ASP.NET Core
+- https://referbruv.com/blog/how-to-serilog-logging-in-asp-net-core/
