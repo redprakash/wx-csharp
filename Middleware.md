@@ -9,3 +9,4 @@ Each component:
 ## Custom Middleware in ASP.NET Core Application
 - https://www.tutorialsteacher.com/core/how-to-add-custom-middleware-aspnet-core
 - https://www.youtube.com/watch?v=EBVraCJSXhA
+- https://www.youtube.com/watch?v=tx1hsf_R-0o&list=PLaFzfwmPR7_IPzBR4AI0eoojmIdTFJmHs&index=40
