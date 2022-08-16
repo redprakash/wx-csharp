@@ -98,3 +98,7 @@
 # Send Events to Event Hub
 ![image](https://user-images.githubusercontent.com/11143215/184755780-6f45721a-44ec-40fe-ab98-3e57222ae317.png)
 
+# Read Events from Event Hub
+![image](https://user-images.githubusercontent.com/11143215/184759445-11f139fe-da9b-46f4-a539-47fe0670d86e.png)
+
+
