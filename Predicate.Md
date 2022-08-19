@@ -1,5 +1,9 @@
 # Predicate
 
+    Predicate in general meaning is a statement about something that is either true or false. 
+    In programming, predicates represent single argument functions that return a boolean value.
+
+
     Predicate is the delegate like Func and Action delegates. It represents a method containing a set of criteria and 
     checks whether the passed parameter meets those criteria. A predicate delegate methods must take one input parameter 
     and return a boolean - true or false.
