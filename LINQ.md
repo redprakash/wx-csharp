@@ -3,6 +3,9 @@
 # LINQ CheatSheet
 [LINQ CheatSheet.pdf](https://github.com/redprakash/wx-csharp/files/9131020/LINQ.CheatSheet.pdf)
 
+# Introduction to LINQ | LINQ tutorial for beginners
+- https://www.youtube.com/watch?v=x8GRDuXy5tI&list=PLaFzfwmPR7_IZuwiT6nqcvNEhKl_Mg19A
+
 # All LINQ query operations consist of three distinct actions:
   1. Obtain the data source.
   2. Create the query.
