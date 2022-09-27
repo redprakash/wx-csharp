@@ -17,6 +17,7 @@ It formats the file for the better readability
 ![image](https://user-images.githubusercontent.com/11143215/174470876-a30389b1-69c4-490e-8f1e-e90d6b234e26.png)
 
 ## Terraform resource
+
 ![image](https://user-images.githubusercontent.com/11143215/174468711-e9f9b67f-7f7d-465e-8c2c-cb534a1dc05e.png)
 
 Here: We have Resource Type called "local_file" and this provides two bits of information
@@ -28,7 +29,9 @@ Here: We have Resource Type called "local_file" and this provides two bits of in
             terraform apply => exectute the command
       
 ## Without using variable
-![image](https://user-images.githubusercontent.com/11143215/174469708-585312cf-f88d-4d6c-b568-0cc6afe14b83.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/11143215/174469708-585312cf-f88d-4d6c-b568-0cc6afe14b83.png" width="400" height="300" >
+</p>
 
 ## After using variables
 ![image](https://user-images.githubusercontent.com/11143215/174469724-3c307b52-0361-4f3b-9ca2-c8ef7b1db09b.png)
