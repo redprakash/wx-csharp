@@ -22,12 +22,11 @@ It formats the file for the better readability
 Here: We have Resource Type called "local_file" and this provides two bits of information
 1. provider => this is the word before the underscore(_) in the resource type
 2. The word following the underscore(_) represents the type fo the resource in this case it its file
-
-
-
-      terraform init => Initialize the terraform 
-      terraform plan => view the changes that will be done 
-      terraform apply => exectute the command
+      
+            terraform init => Initialize the terraform 
+            terraform plan => view the changes that will be done 
+            terraform apply => exectute the command
+      
 ## Without using variable
 ![image](https://user-images.githubusercontent.com/11143215/174469708-585312cf-f88d-4d6c-b568-0cc6afe14b83.png)
 
