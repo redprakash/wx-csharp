@@ -19,6 +19,12 @@ It formats the file for the better readability
 ## Terraform resource
 ![image](https://user-images.githubusercontent.com/11143215/174468711-e9f9b67f-7f7d-465e-8c2c-cb534a1dc05e.png)
 
+Here: We have Resource Type called "local_file" and this provides two bits of information
+1. provider => this is the word before the underscore(_) in the resource type
+2. The word following the underscore(_) represents the type fo the resource in this case it its file
+
+
+
       terraform init => Initialize the terraform 
       terraform plan => view the changes that will be done 
       terraform apply => exectute the command
