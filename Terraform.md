@@ -28,6 +28,10 @@ Here: We have Resource Type called "local_file" and this provides two bits of in
             terraform plan => view the changes that will be done 
             terraform apply => exectute the command
       
+## Terraform State 
+1. ``` terraform state list ``` => lists all the resources we have
+2. ``` terraform state show ```  ``` name of the resource ``` => shows the information of that particular resource
+
 ## Without using variable
 <p align="center">
 <img src="https://user-images.githubusercontent.com/11143215/174469708-585312cf-f88d-4d6c-b568-0cc6afe14b83.png" width="400" height="300" >
