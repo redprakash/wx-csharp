@@ -29,6 +29,7 @@ Here: We have Resource Type called "local_file" and this provides two bits of in
             terraform apply => exectute the command
       
 ## Terraform State 
+https://www.terraform.io/language/state
 1. ``` terraform state list ``` => lists all the resources we have
 2. ``` terraform state show ```  ``` name of the resource ``` => shows the information of that particular resource
 
