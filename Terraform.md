@@ -1,5 +1,5 @@
 # Terraform
-
+- https://www.youtube.com/watch?v=V53AHWun17s&t=12s
 - https://www.youtube.com/watch?v=YcJ9IeukJL8&list=PLKjV8hx8vwdhLJGVUOGipsKPnMuN_GmGz&index=1
 
 ### Validate the configuration 
