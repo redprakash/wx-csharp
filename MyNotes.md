@@ -239,8 +239,9 @@ class ClassName<T> where T :class
         > It returns the right-hand-side operand if the value is null
 ``` variableName ?? valueIfNull ```
     
-### Null Propagation Operator
-    The "Null Propagation Operator (?.) and (? [] ) checks the value of left-hand operand 
+### Null-conditional operators ?. and ?[]
+- https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/member-access-operators?redirectedfrom=MSDN#null-conditional-operators--and-
+    The "Null-conditional operators (?.) and (? [] ) checks the value of left-hand operand 
     whether it is null or not
         -> It returns the right-hand-side operand (property or method), if the value is not null
         -> It returns null, if the value is null
