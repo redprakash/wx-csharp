@@ -249,6 +249,22 @@ class ClassName<T> where T :class
     if reference variable is "null"
     
 `referenceVariable?.fieldName; `
+```
+Suboptimal code
+public string GetName(object name)
+{
+    if (name != null)
+    {
+        return name.ToString();
+    }
+    return null;
+}
+After the quick-fix
+public string GetName(object name)
+{
+    return name?.ToString();
+}
+```
     
 
 
