@@ -1,5 +1,6 @@
 # LOGGING in ASP.NET Core
 - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-6.0
+- https://www.ssw.com.au/rules/rules-for-error-handling
 - https://www.youtube.com/watch?v=dxBlBltEDRs
 - https://sematext.com/blog/logging-levels/
 
