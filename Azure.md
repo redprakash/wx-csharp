@@ -87,6 +87,7 @@
 
 
 ### What is Azure Service Bus?
+- https://www.youtube.com/watch?v=7n38Tha5JIE
 - https://www.youtube.com/watch?v=fERL-FXDEAg
 
 ### Azure Service Bus Implementation Example
