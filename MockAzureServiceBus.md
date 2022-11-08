@@ -4,25 +4,24 @@
 ```
 public class ServiceBusSenderMock : ServiceBusSender
 {
-    public List<ServiceBusMessage> ServiceBusMessagesToPublish = new();
-    public List<ServiceBusMessageBatch> ServiceBusMessageBatchesToPublish = new();
-    public List<ServiceBusMessageBatch> CustomServiceBusMessageBatchesCreated = new();
+    public List<ServiceBusMessage> PublishedMessages = new();
+    private readonly Dictionary<ServiceBusMessageBatch, List<ServiceBusMessage>> _batchToMessagesMapping = new();
 
     public override Task SendMessagesAsync(
         ServiceBusMessageBatch messageBatch,
         CancellationToken cancellationToken = default)
     {
-
-        ServiceBusMessageBatchesToPublish.Add(messageBatch);
+        PublishedMessages.AddRange(_batchToMessagesMapping[messageBatch]);
         return Task.CompletedTask;
     }
 
     public override ValueTask<ServiceBusMessageBatch> CreateMessageBatchAsync(
         CancellationToken cancellationToken = default)
     {
-        var batchToReturn = ServiceBusModelFactory.ServiceBusMessageBatch(1000, ServiceBusMessagesToPublish);
-        CustomServiceBusMessageBatchesCreated.Add(batchToReturn);
-        return ValueTask.FromResult(batchToReturn);
+        var batchMessages = new List<ServiceBusMessage>();
+        var batch = ServiceBusModelFactory.ServiceBusMessageBatch(1000, batchMessages);
+        _batchToMessagesMapping.Add(batch, batchMessages);
+        return ValueTask.FromResult(batch);
 
     }
     public override ValueTask DisposeAsync()
@@ -30,6 +29,11 @@ public class ServiceBusSenderMock : ServiceBusSender
         return ValueTask.CompletedTask;
     }
 
+    public void Reset()
+    {
+        PublishedMessages.Clear();
+        _batchToMessagesMapping.Clear();
+    }
 }
 ```
 
@@ -44,6 +48,7 @@ public class ServiceBusSenderMock : ServiceBusSender
         {
             _factory = factory;
             _serviceBusSenderMock = (ServiceBusSenderMock)factory.Services.GetService<ServiceBusSender>();
+             _serviceBusSenderMock.Reset();
         }
     }
 
