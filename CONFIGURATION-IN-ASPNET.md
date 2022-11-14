@@ -12,3 +12,6 @@
   - Custom providers, installed or created
   - Directory files
   - In-memory .NET objects
+
+### The preferred way to read related configuration values is using the options pattern
+- https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options?view=aspnetcore-7.0
